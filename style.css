@@ -165,3 +165,16 @@ p {
 
 
 
+/* feature list start */
+.feature-list{
+    padding: 50px;
+}
+
+.feature-list-container {
+    display: flex;
+    justify-content: space-between;
+}
+/* feature list end */
+
+
+
