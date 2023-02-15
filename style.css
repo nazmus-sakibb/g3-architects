@@ -2,13 +2,25 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.cotainer {
-    width: 85%;
+.container {
+    width: 80%;
     margin: 0 auto;
 }
 
+
+h1,
+h2,
+h3,
+h4 {
+    color: #131313;
+}
+
+p {
+    color: #727272;
+}
 
 
 
@@ -16,8 +28,135 @@ body {
 .header {
     padding: 50px 0;
     background-color: #FFF4E7;
+    overflow: hidden;
 }
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+
+/* navbar */
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding-right: 40px;
+}
+
+
+.navbar ul li a { 
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+}
+
+/* header content */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header-title {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.header-content p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.btn-explore {
+    cursor: pointer;
+    padding: 15px 20px;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.header-banner {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.header-banner img {
+    width: 100%;
+}
+
 /* header area end */
+
+
+
+/* feature area start */
+.feature {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.feature img {
+    display: block;
+    width: 100%;
+}
+
+.feature-img {
+    width: 250px;
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feature-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    overflow: hidden;
+}
+
+
+/* feature content */
+.feature-content {
+    overflow: hidden;
+}
+
+.feature-content h3 {
+    font-size: 35px;
+    line-height: 50px;
+    width: 80%;
+    margin-top: 0;
+}
+
+.light-color {
+    color: #727272;
+    font-weight: 500;
+}
+
+.deep-color {
+    color:#FF900E;
+}
+
+/* feature area end */
 
 
 
