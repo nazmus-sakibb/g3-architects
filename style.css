@@ -1,0 +1,23 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cotainer {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+
+/* header area start */
+.header {
+    padding: 50px 0;
+    background-color: #FFF4E7;
+}
+/* header area end */
+
+
+
