@@ -337,15 +337,31 @@ p {
     align-items: center;
 }
 
-.sponsor-brands .logo {
-
-}
 
 .sponsor-brands img {
     width: 120px;
     filter: grayscale(100%);
 }
 /* Sponsors area end */
+
+
+
+
+/* Footer area start */
+.footer {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer p {
+    color: #424242;
+    margin: 0;
+}
+/* Footer area end */
 
 
 
