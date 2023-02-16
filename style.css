@@ -178,20 +178,27 @@ p {
 }
 
 .list-content {
-    width: 42%;
+    width: 100%;
+    padding-right: 10%;
 }
 
 .list-banner img {
     width: 100%;
+    display: block;
 }
 
 .list-banner {
-    width: 50%;
-    position: relative;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    position: relative;
+    /* padding-left: 5%; */
 }
+
+/* .list-banner-img {
+    position: relative;
+} */
 
 .feature-title {
     font-size: 33px;
@@ -236,8 +243,8 @@ p {
     padding: 35px 30px;
     border-radius: 5px;
     position: absolute;
-    left: -45px;
-    bottom: 50px;
+    left: -50px;
+    bottom: 60px;
 }
 
 .experience-field h2 {
