@@ -1,13 +1,17 @@
 /* Responsive css */
 @media screen and (max-width: 576px){
     /* header area start */
+    /* logo and navbar */
     .header {
         padding-top: 30px;
     }
 
+    .header-top {
+        margin-bottom: 30px;
+    }
+
     .header-top h1 {
         font-size: 20px;
-        margin-bottom: 40px;
     }
 
     .header-title {
@@ -15,7 +19,20 @@
         font-size: 20px;
         text-align: center;
     }
+
+    /* navbar */
+    .navbar ul{
+        display: block;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .navbar ul li {
+        padding-right: 0;
+    }
     
+
+    /* header content */
     .header-content p {
         text-align: center;
         /* font-size: 14px; */
@@ -134,4 +151,20 @@
         max-width: 60px;
     }
     /* Sponsors area end */
+}
+
+
+
+@media screen and (max-width: 400px){
+    /* sponsor area */
+    .sponsor-brands {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sponsor-brands img {
+        margin-bottom: 30px;
+        min-width: 100px;
+    }
 }
