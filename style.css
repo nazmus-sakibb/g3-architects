@@ -333,7 +333,8 @@ p {
 .sponsor-brands {
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sponsor-brands .logo {
@@ -341,28 +342,11 @@ p {
 }
 
 .sponsor-brands img {
-    /* width: 70%; */
+    width: 120px;
+    filter: grayscale(100%);
 }
 /* Sponsors area end */
 
 
 
 
-
-/* test */
-.sponsor-card-container {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.sponsor-card {
-    /* border: 1px solid #FF900E;
-    text-align: center;
-    padding: 30px;
-    border-radius: 5px; */
-}
-
-.sponsor-icon {
-    /* width: 35px; */
-}
