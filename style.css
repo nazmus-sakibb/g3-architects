@@ -283,6 +283,13 @@ p {
     text-align: center;
     padding: 30px;
     border-radius: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.facts-card:hover {
+    transform: scale(1.2);
+
 }
 
 .facts-icon {
