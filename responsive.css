@@ -1,0 +1,24 @@
+/* Responsive css */
+@media screen and (max-width: 576px){
+    /* Feature area start */
+    .feature-container {
+        display: block;
+    } 
+
+    .feature-img-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding-left: 0;
+    }
+
+    .feature-content {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+    /* Feature area end */
+
+
+    /* feature list start */
+    /* feature list end */
+}
