@@ -175,14 +175,55 @@ p {
     justify-content: space-between;
 }
 
+.list-content {
+    width: 45%;
+}
+
+.list-banner {
+    width: 50%;
+}
+
 .list-banner img {
-    width: 70%;
+    width: 100%;
 }
 
 .list-banner {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.feature-title {
+    font-size: 33px;
+    width: 70%;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.feature-subtitle {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* featrue card */
+.feature-card {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 16px;
+    margin-bottom: 20px;
+}
+
+.feature-card-title {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.feature-card-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
 }
 /* feature list end */
 
