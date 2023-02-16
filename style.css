@@ -336,14 +336,33 @@ p {
     justify-content: space-around;
 }
 
-.sponsor-logo {
-    /* overflow: hidden; */
+.sponsor-brands .logo {
+
 }
 
 .sponsor-brands img {
-    width: 100%;
-    /* display: inline-block; */
-    /* padding-right: 30px; */
+    /* width: 70%; */
 }
 /* Sponsors area end */
 
+
+
+
+
+/* test */
+.sponsor-card-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsor-card {
+    /* border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px; */
+}
+
+.sponsor-icon {
+    /* width: 35px; */
+}
