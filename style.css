@@ -29,13 +29,13 @@ p {
 .header {
     padding: 50px 0;
     background-color: #FFF4E7;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -113,12 +113,13 @@ p {
 }
 
 .feature img {
-    /* display: block; */
     width: 100%;
+    display: inline-block;
 }
 
 .feature-img {
     width: 250px;
+    overflow: hidden;
 }
 
 .feature-container {
@@ -168,7 +169,7 @@ p {
 
 /* feature list start */
 .feature-list{
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .feature-list-container {
@@ -180,16 +181,13 @@ p {
     width: 42%;
 }
 
-.list-banner {
-    width: 50%;
-    position: relative;
-}
-
 .list-banner img {
     width: 100%;
 }
 
 .list-banner {
+    width: 50%;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -259,7 +257,7 @@ p {
 
 /* Some facts area start */
 .some-facts {
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .facts-title {
@@ -311,7 +309,7 @@ p {
 
 /* Sponsors area start */
 .sponsors {
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .sponsors-content {
@@ -351,7 +349,7 @@ p {
 .footer {
     background-color: #FFF4E7;
     text-align: center;
-    padding: 25px;
+    padding: 25px 0;
     border-radius: 5px;
     margin-top: 50px;
     margin-bottom: 100px;

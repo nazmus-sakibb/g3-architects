@@ -1,15 +1,51 @@
 /* Responsive css */
 @media screen and (max-width: 576px){
+    /* header area start */
+    .header {
+        padding-top: 30px;
+    }
+
+    .header-top h1 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .header-title {
+        margin: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .header-content p {
+        text-align: center;
+        /* font-size: 14px; */
+        font-weight: 400;
+        line-height: 22px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* header area end */
+
+
+
     /* Feature area start */
+    .feature {
+        padding-bottom: 0;
+    }
+
     .feature-container {
         display: block;
     } 
 
     .feature-img-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
         padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-img {
+        max-width: 250px;
     }
 
     .feature-content {
@@ -20,5 +56,82 @@
 
 
     /* feature list start */
+    .feature-list {
+        padding-bottom: 0;
+    }
+    .feature-list-container {
+        display: block;
+    }
+
+    .list-content {
+        width: 100%;
+    }
+
+    .list-banner {
+        width: 100%;
+        position: relative;
+        display: block;
+        margin-top: 50px;
+    }
+
+
+    .experience-field {
+        text-align: center;
+        background-color: #FF900E;
+        padding: 35px 30px;
+        border-radius: 5px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
     /* feature list end */
+
+
+
+    /* Some facts area start */
+    .some-facts {
+        padding-bottom: 0;
+    }
+
+    .facts-text {
+        width: 100%;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .facts-card-container {
+        margin-top: 50px;
+        display: block;
+        /* justify-content: space-around; */
+    }
+    /* Some facts area end */
+
+
+
+    /* Sponsors area start */
+    .sponsors {
+        padding-bottom: 0;
+    }
+
+    .sponsors-content {
+        text-align: left;
+        display: block;
+    }
+
+    .sponsors-text {
+        width: 100%;
+    }
+
+    .sponsor-brands {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .sponsor-brands img {
+        max-width: 60px;
+    }
+    /* Sponsors area end */
 }
