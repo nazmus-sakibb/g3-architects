@@ -176,11 +176,12 @@ p {
 }
 
 .list-content {
-    width: 45%;
+    width: 42%;
 }
 
 .list-banner {
     width: 50%;
+    position: relative;
 }
 
 .list-banner img {
@@ -203,6 +204,8 @@ p {
 .feature-subtitle {
     line-height: 20px;
     margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 
@@ -224,6 +227,31 @@ p {
     margin: 0;
     font-size: 14px;
     line-height: 16px;
+}
+
+
+/* experience field */
+.experience-field {
+    text-align: center;
+    background-color: #FF900E;
+    padding: 35px 30px;
+    border-radius: 5px;
+    position: absolute;
+    left: -45px;
+    bottom: 50px;
+}
+
+.experience-field h2 {
+    margin: 0;
+    font-size: 45px;
+    line-height: 40px;
+    color: white;
+}
+
+.experience-field p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
 }
 /* feature list end */
 
